@@ -1,0 +1,24 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "React application using Apollo client for lost and found pets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicasalamanca/lostnfound.git"
+  },
+  "keywords": [
+    "[\"react\"",
+    "\"apollo",
+    "client\"]"
+  ],
+  "author": "Monica Salamanca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monicasalamanca/lostnfound/issues"
+  },
+  "homepage": "https://github.com/monicasalamanca/lostnfound#readme"
+}
