@@ -1,0 +1,107 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-FSTREAM-174725:
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > unzip > fstream:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-LODASH-450202:
+    - graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-LODASH-73638:
+    - graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-LODASH-73639:
+    - graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  'npm:lodash:20180130':
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > lodash:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-MARKED-174116:
+    - prisma > prisma-cli-engine > marked:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-engine > marked:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-MARKED-451540:
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-engine > marked:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  SNYK-JS-OPEN-174041:
+    - graphql-cli > graphql-cli-prepare > graphql-static-binding > cucumber-html-reporter > open:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > graphql-static-binding > cucumber-html-reporter > open:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  'npm:open:20180512':
+    - graphql-cli > graphql-cli-prepare > graphql-static-binding > cucumber-html-reporter > open:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > graphql-cli-prepare > graphql-static-binding > cucumber-html-reporter > open:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  'npm:braces:20180219':
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > chokidar > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+  'npm:mem:20180117':
+    - graphql-cli > apollo-codegen > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - graphql-cli > tmp-graphql-config-extension-openapi > @kbrandwijk/swagger-to-graphql > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+  'npm:string:20170907':
+    - prisma > prisma-cli-engine > string:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-engine > string:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+  'npm:sync-exec:20160124':
+    - graphql-cli > npm-run > sync-exec:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > npm-run > sync-exec:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > copy-paste > sync-exec:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > npm-run > sync-exec:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > copy-paste > sync-exec:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+  'npm:validator:20180218':
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > validator:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-engine > validator:
+        reason: None given
+        expires: '2019-11-25T14:57:28.773Z'
+  'npm:adm-zip:20180415':
+    - prisma > prisma-cli-core > prisma-generate-schema > prisma-cli > prisma-cli-core > graphql-cli > adm-zip:
+        reason: None given
+        expires: '2019-11-25T14:57:28.772Z'
+patch: {}
