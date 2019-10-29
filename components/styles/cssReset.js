@@ -4,10 +4,19 @@ const CSSReset = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   *, *:before, *:after {
     box-sizing: inherit;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, ol, ul {
+    font-family: 'Big Shoulders Text', cursive;
   }
 
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {

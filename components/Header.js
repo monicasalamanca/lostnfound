@@ -7,7 +7,7 @@ const Header = () => (
     <div className="header-wrapper">
       <div className="nav-bar">
         <Link href="/">
-          <a>Lost-n-Found</a>
+          <a className="logo">Lst<span>n</span>Fnd</a>
         </Link>
         <Nav />
       </div>
